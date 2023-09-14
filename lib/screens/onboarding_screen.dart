@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/models/question.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen(this.switchScreen, {super.key});
