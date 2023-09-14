@@ -12,6 +12,8 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
   google_fonts: ^4.0.4
   http: ^1.1.0
+  chat_gpt_sdk: 2.2.2
+  html_unescape: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -21,5 +23,7 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   image_path: "assets/quizapp.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/quizapp.png"
 flutter:
   uses-material-design: true

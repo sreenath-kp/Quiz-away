@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:quiz_app/data/questions.dart';
+import 'package:quiz_app/models/question.dart';
 import 'package:quiz_app/widgets/summary.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen(
-      {required this.onRestart, required this.selectedAnswers, super.key});
+      {required this.onRestart,
+      required this.questions,
+      required this.selectedAnswers,
+      super.key});
   final void Function() onRestart;
+  final List<Question> questions;
   final List<String> selectedAnswers;
   List<Map<String, Object>> getSummary() {
     final summary = <Map<String, Object>>[];

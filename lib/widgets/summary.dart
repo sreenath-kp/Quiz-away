@@ -46,12 +46,13 @@ class QuizSummary extends StatelessWidget {
                               color: Colors.black87,
                             )),
                         const SizedBox(height: 5),
-                        Text(e['choosen_answer'] as String,
-                            style: GoogleFonts.nunito(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.red[200],
-                            )),
+                        if (e['choosen_answer'] != e['correct_answer'])
+                          Text(e['choosen_answer'] as String,
+                              style: GoogleFonts.nunito(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.red[200],
+                              )),
                         const SizedBox(height: 5),
                         Text(
                           e['correct_answer'] as String,
