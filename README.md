@@ -11,10 +11,18 @@ A Flutter quiz app that allows users to select a category and answer trivia ques
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-<!-- Insert additional screenshots here -->
-![Screenshot 2](screenshots/screenshot2.png) 
-![Screenshot 3](screenshots/screenshot3.png)
+<table>
+  <tr>
+    <td>Onboarding</td>
+    <td>Questions</td>
+    <td>Results</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/onboarding.png" width=270></td>
+    <td><img src="screenshots/questions screen.png" width=270></td>
+    <td><img src="screenshots/results.png" width=270></td>
+  </tr>
+ </table>
 
 ## Contributing
 
@@ -27,8 +35,8 @@ Contributions are welcome! Here are some ways you can contribute to this project
 ### Development Setup
 
 1. Install [Flutter](https://flutter.dev/docs/get-started/install) on your machine.
-2. Clone this repository: `git clone https://github.com/your-username/flutter-quiz-app.git`.
-3. Navigate to the project directory: `cd flutter-quiz-app`.
+2. Clone this repository: `git clone https://github.com/sreenath-kp/Quiz-away.git`.
+3. Navigate to the project directory: `cd Quiz-away`.
 4. Install dependencies: `flutter pub get`.
 5. Run the app: `flutter run`.
 
